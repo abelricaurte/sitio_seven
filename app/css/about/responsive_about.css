@@ -1,0 +1,120 @@
+/*responsive jul*/
+
+@media only screen and (max-width: 1600px) {
+.pais .page_container {
+	right: -27%;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+.pais {
+	background-position:-20% -150px;
+	}
+.pais .page_container {
+	right: -35%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+.pais {
+	background-position:-130% -150px;
+	}
+.pais .page_container {
+	right: -35%;
+	}
+/*personas*/
+.per {
+	background-position:120% 50%;
+	}
+}
+
+@media only screen and (max-width: 930px) {
+.pais {
+	background-position:center -150px;
+	}
+.pais .page_container {
+	width:100%;
+	right:0;
+	background:url(../../images/about/bg_person_respon.png) center 0 no-repeat;
+	text-align:center;
+	padding:3% 5%;
+	}
+.pais .page_container h1,
+.pais .page_container h2{
+	color:#FFFFFF;
+	}
+/*personas*/
+.per {
+	background:#eaeef0;
+	}
+.per .page_container {
+	width:90%;
+	padding:5%;
+	left:0;
+	top: 10%;
+	}
+.per .page_container h1,
+.per .page_container h2{
+	text-align:center;
+	}
+.per .page_container .img_per{
+	display:block;
+	text-align:center;
+	}
+.per .page_container .img_per img{
+	max-width:230px;
+	height:auto;
+	}
+}
+
+@media only screen and (max-width: 830px) {
+.pais .page_container {
+	width:100%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+.contac .footer{
+height:auto;
+padding:30px 0 0 0;
+}
+.contac .footer .datos-contacto{
+bottom:0;
+position:relative;
+}
+}
+
+@media only screen and (max-width: 600px) {
+/*ocho*/
+.eight .page_container{
+	width:100%;
+	margin-top:80px !important;
+	}
+/*personas*/
+.per .page_container h1{
+	font-size:40px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+.pais .page_container h1{
+	font-size:30px;
+	}
+.pais .page_container h2{
+	font-size:20px;
+	}
+/*personas*/
+.per .page_container h1{
+	font-size:35px;
+	}
+}
+
+@media only screen and (max-width: 340px) {
+/*personas*/
+.per .page_container h1{
+	font-size:25px;
+	}
+.per .page_container h2{
+	font-size:18px;
+	}
+}

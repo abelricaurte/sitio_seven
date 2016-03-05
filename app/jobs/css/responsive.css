@@ -1,0 +1,372 @@
+/*responsive jul*/
+@media only screen and (min-width: 1600px) {
+.enfo .imgOne{
+	width:45%;
+	margin:0 5% 0 0;
+	}
+.enfo .imgTwo{
+	width:45%;
+	margin:90px 0 0 5%;
+	}
+/*internas*/
+.carousel-caption.inter{
+	top:40%;
+	}
+.carousel-caption.inter h1{
+	font-size:50px;
+	}
+.carousel-caption.inter p{
+	font-size:22px !important;
+	}
+}
+@media only screen and (max-width: 1600px) {
+/*internas*/
+.carousel-caption.inter{
+	top:30%;
+	}
+.carousel-caption.inter h1{
+	font-size:50px;
+	}
+.carousel-caption.inter p{
+	font-size:22px !important;
+	}
+}
+@media only screen and (max-width: 1200px) {
+/*carousel*/
+.carousel-caption{
+	top:15% !important;
+	}
+.carousel-caption h1{
+	font-size:50px;
+	line-height:50px;
+	}
+.carousel-caption p{
+	font-size:22px !important;
+	}
+/*internas*/
+.carousel-caption.inter{
+	top:25% !important;
+	}
+.carousel-caption.inter h1{
+	font-size:50px !important;
+	}
+.carousel-caption.inter p{
+	font-size:22px !important;
+	}
+}
+@media only screen and (max-width: 1024px) {
+/*carousel*/
+.carousel-caption{
+	top:13% !important;
+	}
+.carousel-caption h1{
+	font-size:45px;
+	line-height:45px;
+	}
+.carousel-caption p{
+	font-size:20px !important;
+	}
+/*nuestro enfoque*/
+.enfo .text{
+	width:100%;
+	margin:10px 0 0 0;
+	text-align:justify;
+	}
+.enfo .text .btnEnfo{
+	text-align:center;
+	margin:20px 0 0 0;
+	}
+.enfo .forla{
+	width:100%;
+	margin:20px 0 0 0;
+	}
+/*portafolio*/
+.port .cont .rightHome .cli ul li img{
+	width:100%;
+	}
+.port .cont .leftHome .ali ul li img{
+	width:100%;
+	}
+/*internas*/
+.carousel-caption.inter{
+	top:23% !important;
+	}
+.carousel-caption.inter h1{
+	font-size:40px !important;
+	}
+.carousel-caption.inter p{
+	font-size:20px !important;
+	}
+}
+
+@media only screen and (max-width: 930px) {
+/*carousel*/
+.carousel-caption{
+	top:11% !important;
+	}
+.carousel-caption h1{
+	font-size:40px;
+	line-height:40px;
+	}
+.carousel-caption p{
+	font-size:18px !important;
+	}
+/*portafolio*/
+.port .cont .leftHome .testi .txt{
+	line-height:27px;
+	margin:0;
+	}
+.port .cont .leftHome .testi .txt span{
+	font-size:22px;
+	}
+/*internas*/
+.carousel-caption.inter{
+	top:18% !important;
+	}
+.carousel-caption.inter h1{
+	font-size:30px !important;
+	}
+.carousel-caption.inter p{
+	font-size:18px !important;
+	}
+}
+
+@media only screen and (max-width: 830px) {
+/*carousel*/
+.carousel-caption{
+	top:10% !important;
+	}
+.carousel-caption h1{
+	font-size:40px;
+	line-height:35px;
+	}
+.carousel-caption p{
+	font-size:17px !important;
+	}
+/*internas*/
+.int .left{
+	width:100%;
+	}
+.int .left .contTxt{
+	width:100%;
+	margin:25px 0 0 0;
+	padding:0 5%;
+	}
+.int .left .imag{
+	width:90%;
+	margin:0 5%;
+	}
+.int .right{
+	width:100%;
+	}
+.carousel-caption.inter{
+	top:16% !important;
+	}
+.carousel-caption.inter h1{
+	font-size:25px !important;
+	}
+.carousel-caption.inter p{
+	font-size:16px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+/*carousel*/
+.carousel-caption{
+	top:12% !important;
+	}
+.carousel-caption h1{
+	font-size:35px;
+	line-height:30px;
+	}
+.carousel-caption p{
+	display:none;
+	}
+.carousel-caption hr{
+	display:none;
+	}
+/*soluciones TI*/
+.ti .dat{
+	width:85%;
+	}
+.effect .top .ico img{
+	width:100%;
+	height:auto;
+	}
+/*footer*/
+footer .caja .datos .bog,
+footer .caja .datos .med,
+footer .caja .datos .tel{
+	width:100%;
+	text-align:center;
+	padding:0;
+	}
+footer .caja .datos .bog br,
+footer .caja .datos .med br,
+footer .caja .datos .log{
+	display:none;
+	}
+/*internas*/
+.carousel-caption.inter{
+	top:12% !important;
+	}
+.carousel-caption.inter h1{
+	font-size:18px !important;
+	}
+.carousel-caption.inter p{
+	font-size:13px !important;
+	display:block;
+	}
+/*interna portafolio*/
+.porInt .casos ul li{
+	width:100%;
+	display:block;
+	float:left;
+	}
+.porInt .casos ul.dos li:nth-child(1){
+	background:#e2e4e7;
+	}
+.porInt .casos ul.dos li:nth-child(2){
+	background:#FFFFFF;
+	}
+.porInt .casos ul.dos li:nth-child(2):before{
+	display:none;
+	}
+}
+@media only screen and (max-width: 600px) {
+/*carousel*/
+.carousel-caption{
+	top:24% !important;
+	}
+.carousel-caption h1{
+	font-size:30px;
+	line-height:30px;
+	}
+.carousel .item::before{
+	display:none;
+	}
+.carousel .item::after{
+	display:none;
+	}
+/*soluciones TI*/
+.ti .dat .titu{
+	font-size:30px;
+	}
+.ti .dat .txt{
+	font-size:14px;
+	}
+.ti .cont ul.over li{
+	width:98%;
+	margin:0 1% 15px 1%;
+	}
+/*portafolio*/
+.port .dat .titu{
+	font-size:30px;
+	}
+.port .dat{
+	width:85%;
+	}
+.port .cont .leftHome{
+	width:100%;
+	}
+.port .cont .leftHome .ali{
+	padding:0;
+	}
+.port .cont .leftHome .ali .tit{
+	left:0;
+	margin:0;
+	font-size:18px;
+	}
+.port .cont .rightHome{
+	width:100%;
+	}
+.port .cont .rightHome .cli .tit{
+	margin:0;
+	font-size:18px;
+	}
+/*footer*/
+footer .caja{
+	width:90%;
+	}
+.port .dat .txt{
+	font-size:14px;
+	}
+/*internas*/
+.int .left .cuadro{
+	width:130px;
+	padding:20px 0 20px 30px;
+	background:#D80C10;
+	}
+.carousel-caption.inter{
+	top:30% !important;
+	}
+.carousel-caption.inter h1{
+	font-size:20px !important;
+	}
+.carousel-caption.inter p{
+	font-size:14px !important;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+/*carousel*/
+.carousel-caption{
+	top:25% !important;
+	}
+.carousel-caption h1{
+	font-size:22px;
+	line-height:25px;
+	}
+/*nuestro enfoque*/
+.enfo .imgOne{
+	display:none;
+	}
+.enfo .imgTwo{
+	display:none;
+	}
+.enfo .tit{
+	width:80%;
+	float:left;
+	margin:0 10%;
+	position:inherit;
+	}
+.enfo .forla{
+	display:none;
+	}
+.enfo .text{
+	font-size:14px;
+	}
+
+/*footer*/
+footer .caja .text{
+	font-size:22px;
+	line-height:25px;
+	}
+/*internas*/
+.carousel-caption.inter{
+	top:40% !important;
+	}
+.carousel-caption.inter h1{
+	font-size:22px !important;
+	}
+.carousel-caption.inter p{
+	display:none;
+	}
+}
+
+@media only screen and (max-width: 340px) {
+/*carousel*/
+.carousel-caption{
+	top:17% !important;
+	}
+.carousel-caption h1{
+	font-size:18px;
+	line-height:20px;
+	}
+/*internas*/
+.carousel-caption.inter{
+	top:43% !important;
+	}
+.carousel-caption.inter h1{
+	font-size:16px !important;
+	}
+}
