@@ -20,10 +20,14 @@ $ npm install
 $ bower install
 ```
 
-#### 3. Ejecute el servidor:
+#### 3. Correr el servidor:
 
 ```sh
 $ gulp serve
 ```
 
-El sitio estará disponible en "localhost://9000"
+El sitio estará disponible en localhost:9000
+
+#### Opciones
+
+- Ctrl + C // Detener el servidor
